@@ -1,0 +1,35 @@
+.footer {
+  position: static;
+
+  bottom: 0;
+  min-width:100%;
+  max-width:100%;
+  background-color: #EEEEEE;
+  font-size: small;
+  font-family: 'PT Sans Narrow', sans-serif;
+  justify-content: right;
+}
+
+.socials {
+  padding-left: 430px;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+.socials li {
+  float: left;
+  margin: 0 6px;
+}
+
+.socials a i {
+  font-size: 1.0rem;
+  transition: color .4s ease;
+
+}
+
+.footer-bottom{
+  font-size: small;
+  justify-content: right;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
